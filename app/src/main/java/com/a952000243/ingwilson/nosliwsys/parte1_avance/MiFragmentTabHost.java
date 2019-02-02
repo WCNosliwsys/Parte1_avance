@@ -16,10 +16,10 @@ public class MiFragmentTabHost extends FragmentActivity {
                 getSupportFragmentManager(),android.R.id.tabcontent);
         tabHost.addTab(tabHost.newTabSpec("tab1").setIndicator("Lengüeta 1"),
                 Tab1.class, null);
-/*        tabHost.addTab(tabHost.newTabSpec("tab2").setIndicator("Lengüeta 2"),
+        tabHost.addTab(tabHost.newTabSpec("tab2").setIndicator("Lengüeta 2"),
                 Tab2.class, null);
         tabHost.addTab(tabHost.newTabSpec("tab3").setIndicator("Lengüeta 3"),
-                Tab3.class, null);*/
+                Tab3.class, null);
     }
 }
 
