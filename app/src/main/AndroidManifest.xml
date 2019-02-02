@@ -19,7 +19,10 @@
         <activity android:name=".MainActivity" />
         <activity android:name=".Ejemplo3Activity" />
         <activity android:name=".MiSpinner" />
-        <activity android:name=".MiFragmentTabHost"></activity>
+        <activity android:name=".MiFragmentTabHost" />
+        <activity android:name=".AcercaDe"
+            android:label="Acerca de ..."
+            android:theme="@android:style/Theme.Dialog"></activity>
     </application>
 
 </manifest>

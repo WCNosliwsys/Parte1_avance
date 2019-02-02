@@ -40,6 +40,16 @@
         android:layout_height="wrap_content"
         android:layout_width="match_parent"
         android:text="@string/opcion4"/>
+    <Button
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:text="@string/dialogo"
+        android:onClick="dialogo"/>
+    <Button
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:text="@string/Acercade"
+        android:onClick="AcercaDe"/>
     <Button android:id="@+id/button05"
         android:layout_height="wrap_content"
         android:layout_width="match_parent"
