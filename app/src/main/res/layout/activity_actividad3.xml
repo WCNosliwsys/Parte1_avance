@@ -35,11 +35,13 @@
     <Button android:id="@+id/button04"
         android:layout_height="wrap_content"
         android:layout_width="match_parent"
-        android:text="@string/opcion3"/>
+        android:text="@string/opcion3"
+        android:onClick="manipulando"/>
     <Button android:id="@+id/button03"
         android:layout_height="wrap_content"
         android:layout_width="match_parent"
-        android:text="@string/opcion4"/>
+        android:text="@string/opcion4"
+        android:onClick="myrecycler"/>
     <Button
         android:layout_height="wrap_content"
         android:layout_width="match_parent"

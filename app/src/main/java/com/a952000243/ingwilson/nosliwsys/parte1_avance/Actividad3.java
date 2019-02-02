@@ -24,6 +24,12 @@ public class Actividad3 extends AppCompatActivity {
     public void mifragmenttabhost(View view){
         startActivity(new Intent(this, MiFragmentTabHost.class));
     }
+    public void manipulando(View view){
+        startActivity(new Intent(this, Manipulacion.class));
+    }
+    public void myrecycler(View view){
+        startActivity(new Intent(this, MiRecyclerView.class));
+    }
     public void AcercaDe(View view){
         startActivity(new Intent(this, AcercaDe.class));
     }

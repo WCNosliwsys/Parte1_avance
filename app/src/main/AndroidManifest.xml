@@ -20,9 +20,12 @@
         <activity android:name=".Ejemplo3Activity" />
         <activity android:name=".MiSpinner" />
         <activity android:name=".MiFragmentTabHost" />
-        <activity android:name=".AcercaDe"
+        <activity
+            android:name=".AcercaDe"
             android:label="Acerca de ..."
-            android:theme="@android:style/Theme.Dialog"></activity>
+            android:theme="@android:style/Theme.Dialog" />
+        <activity android:name=".Manipulacion" />
+        <activity android:name=".MiRecyclerView"></activity>
     </application>
 
 </manifest>
