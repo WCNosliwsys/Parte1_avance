@@ -55,5 +55,6 @@
     <Button android:id="@+id/button05"
         android:layout_height="wrap_content"
         android:layout_width="match_parent"
-        android:text="@string/Salir"/>
+        android:text="@string/Salir"
+        android:onClick="salir"/>
 </LinearLayout>

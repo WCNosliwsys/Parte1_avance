@@ -33,6 +33,9 @@ public class Actividad3 extends AppCompatActivity {
     public void AcercaDe(View view){
         startActivity(new Intent(this, AcercaDe.class));
     }
+    public void Salir(View view){
+        finish();
+    }
     @Override protected void onStart() {
         super.onStart();
         Toast.makeText(this, "onStart", Toast.LENGTH_SHORT).show();
